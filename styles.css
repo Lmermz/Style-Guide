@@ -1,0 +1,207 @@
+
+/* top section: header and nav */
+header {
+    color:#fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px; 
+}
+
+h1{
+    text-align: center;
+    line-height: 100px;
+    height:300px;
+    margin:10px 0;
+    font-weight: 700;
+    background-image: url("Images/Hobbiton2.jpg");
+    background-position: center;
+    background-size: cover;
+    opacity: 0.5; 
+}
+
+nav{
+    background-color: #25BEb3;
+    padding: 1px;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 5px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly ;
+}
+
+nav ul li a:link, a:visited {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+    font-family: 'Nothing You Could Do';
+}
+
+/*Each section (e.g. Colour, Fonts) general box instructions */ 
+
+
+.sectionColour{
+    border: 4px solid #d3d1d2; 
+    padding: 30px;
+    margin: 10px;
+    width: fit-content;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    display: inline-flex; 
+    flex-flow: column wrap; 
+}
+
+.sectionFont{
+    border: 4px solid #d3d1d2; 
+    padding: 30px;
+    margin: 10px;
+    width:fit-content; 
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    display: inline-flex; 
+    flex-flow: column wrap; 
+}
+
+.sectionText{
+    border: 4px solid #d3d1d2; 
+    padding: 30px;
+    margin: 10px;
+    width: fit-content; 
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    display: inline-flex; 
+    flex-flow: column wrap; 
+}
+
+h2{
+    font-size: x-large;
+    text-align: left;
+    color: #d3d1d2;
+}
+
+h3{
+    font-size: large;
+}
+
+.sectionColours{
+    display: inline-flex; 
+    flex-flow: row wrap; 
+    justify-content: space-evenly;
+}
+
+/*Colour Section */
+
+.block{
+    margin: 20px; 
+    padding: 10px 10px 0 10px; 
+    text-align: center;
+    font-family: "Nothing You Could Do", sans-serif;
+    width:400px;
+    height: 150px;
+}
+
+.blue {
+    background-color:#25BEb3;
+}
+
+.pink{
+    background-color: #e5a8c4;
+}
+
+.grey{
+    background-color: #d3d1d2;
+}
+
+/* Font section */
+.fontOne{
+    font-family: 'Raleway', sans-serif;
+}
+
+.fontTwo{
+    font-family: 'Nothing You Could Do', monospace;
+}
+
+.standard{
+    font-weight: 100;
+}
+
+.italics{
+    font-style: italic;
+    font-weight: 100;
+}
+
+.bold{
+    font-style: bold;
+    font-weight: 700;
+}
+
+.boxStyle{
+    width: 300px;
+    height: 170px;
+    border: 2px solid #e5a8c4; 
+    margin: 10px 30px;
+    padding: 10px;
+}
+
+/*Text Styles section */ 
+table{
+    border: 2px solid #25BEb3;
+    width: 400px;
+    margin: 10px;
+}
+
+table td{
+    border: 1px solid #25BEb3; 
+    text-align: center;
+    width: 200px;
+}
+
+table th{
+    border: 1px solid #25BEb3; 
+    text-align: center;
+    width: 200px;
+}
+
+.paragraphs{
+    width:300px;
+    font-size: 18px;
+    border: 2px solid #25BEb3; 
+    margin: 0 50px; 
+    padding: 10px;
+}
+
+ul{
+    list-style-type: square;
+    text-align: left;
+}
+
+.textcontent{
+    display: flex;
+    flex-direction: column;
+}
+
+/* for grey colour in Text section */
+.textColour{
+    color: #E8E8E8;
+}
+
+/*Footer*/
+footer{
+    background-color: #25BEb3;
+    width: 100%;
+    text-align: center;
+}
+
+footer p{
+    font-family: 'Nothing You Could Do';
+    font-size: 15px;    
+    font-weight: 600;
+    padding: 7px;
+    color:white;
+}
